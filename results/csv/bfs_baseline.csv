@@ -1,0 +1,4 @@
+board,board_size,bfs_min_moves
+board_1_30,30,3
+board_2_50,50,3
+board_3_100,100,9
