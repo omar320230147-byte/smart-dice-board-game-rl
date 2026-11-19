@@ -1,0 +1,4 @@
+board,episodes,success_rate,failures,first_failure_episode,avg_moves,avg_reward,seeded_action_stream
+board_1_30,10000,1.0,0,None,10.8274,59.4721,61001
+board_2_50,10000,1.0,0,None,18.7236,48.6156,61002
+board_3_100,10000,0.9999,1,790,57.0389,0.3489,61003

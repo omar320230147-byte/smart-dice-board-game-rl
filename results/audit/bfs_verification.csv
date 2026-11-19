@@ -1,0 +1,4 @@
+board,stored_bfs_moves,independent_bfs_moves,matches,evaluated_board_matches_json
+board_1_30,3,3,True,True
+board_2_50,3,3,True,True
+board_3_100,9,9,True,True
