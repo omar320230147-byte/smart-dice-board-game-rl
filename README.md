@@ -87,6 +87,16 @@ The project has no `pyproject.toml` or setup package: run module commands from t
 
 ## Run the project
 
+### Live presentation demo
+
+Launch an interactive browser demo with the saved trained policies, the random baseline, live board, individual agent decisions, and snake/ladder events:
+
+```powershell
+python -m streamlit run ui/app.py
+```
+
+Select a board, algorithm, and seed in the sidebar. Use **Roll next decision** to present the policy step by step or **Play to finish** to show a complete episode. The learned agents load the saved policy files; the demo does not hardcode a winning route. See [the live demo guide](ui/README.md).
+
 Run all tests:
 
 ```bash
