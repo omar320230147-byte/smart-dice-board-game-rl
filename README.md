@@ -23,8 +23,6 @@ The confidence interval for 10/10 gamma-sweep successes is a Wilson 95% interval
 
 ![Ten-seed gamma comparison](results/improved/gamma_sweep_all_boards/gamma_all_boards.png)
 
-![Held-out DRL evaluation](results/improved/generalization/heldout_dqn.png)
-
 ## Features
 
 - Custom deterministic Gymnasium environment with seeded board generation, validation, text rendering, and documented overshoot handling.
@@ -166,17 +164,17 @@ smart-dice-board-game-rl/
 ├── requirements.txt
 ├── config/                  # baseline experiment settings
 ├── data/generated_boards/   # seeded fixed board JSON
-├── docs/                    # compliance, methodology, reports, research notes
-├── models/                  # five small baseline demo policies + model notes
-├── report/                  # source report and Word rendering script
+├── docs/                    # compliance, methodology, final reports
+├── models/                  # five seed-17 baseline demo policies + model notes
 ├── results/
 │   ├── csv/                 # original baseline CSVs
 │   ├── plots/               # original comparison figures
-│   ├── audit/               # original independent audit evidence
+│   ├── audit/               # independent experiment audit evidence
 │   ├── improved/             # supplemental experiment CSVs and figures
 │   └── final_audit/          # policy, CSV, and reproduction audit
 ├── smart_dice_rl/           # environment, agents, experiments, CLI
-└── tests/
+├── tests/                   # unit and environment tests
+└── ui/                      # Streamlit presentation demo
 ```
 
 ## Limitations
