@@ -1,0 +1,46 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Do not redistribute the supplied assignment or private Codex instructions
+/Smart_Dice_Board_Game_RL_Course_Project.docx
+/Codex_Smart_Dice_RL_Project_Brief.md
+
+# Render caches and duplicate historical report artifacts
+/report/original/
+/report/rendered/
+/report/final_rendered/
+/report/*.docx
+/report/*.pdf
+/report/final_report.md
+/report/report_template.md
+
+# Generated local workspace inventory / duplicate compliance copy
+/results/final_audit/project_inventory.md
+/results/final_audit/requirements_compliance.md
+
+# Keep only small policies required for the five README demonstrations.
+# All other model/checkpoint archives remain locally available and unmodified.
+/models/**/*.npz
+/models/**/*.zip
+/models/*.npz
+/models/*.zip
+!/models/board_1_30_q_learning_seed17.npz
+!/models/board_1_30_sarsa_seed17.npz
+!/models/board_1_30_dqn_seed17.zip
+!/models/board_1_30_ppo_seed17.zip
+!/models/board_1_30_a2c_seed17.zip
