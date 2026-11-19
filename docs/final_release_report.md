@@ -59,11 +59,14 @@ Excluded from publication: the supplied assignment DOCX (distribution rights not
 ## GitHub publication
 
 - Target: [omar320230147-byte/smart-dice-board-game-rl](https://github.com/omar320230147-byte/smart-dice-board-game-rl)
-- Initial repository inspection: empty repository / Quick Setup page; no remote refs were present.
-- Release commit: see the published repository history; the final commit hash is provided with the release handoff.
-- Publication status: verified after the repository contents and latest commit were checked online.
+- Uploads were made through the authenticated Google Chrome session and committed directly to `main`; no terminal Git credentials were changed.
+- The public repository now contains the baseline comparison graphs (`results/plots`, 6 PNGs), original baseline result tables (`results/csv`, 5 files), independent audit evidence (`results/audit`, 8 files), and the full ten-seed gamma sweep bundle (`results/improved/gamma_sweep_all_boards`, 5 files).
+- Latest verified publication at the time of this audit: `4580f25ab87f80d82682168a69dabbe0ce13e4a3` (“Publish 100-square gamma sweep results”).
+- The compact release includes five seed-17, 30-square demo policies. Other research model archives and checkpoints are retained in the local workspace and excluded from the public release.
+- The root README renders the baseline comparison and ten-seed gamma figures. The held-out generalization figure and other supplemental files remain local; the README preview was removed until that image is published, while the measured generalization result remains stated with its limitation.
+- README and release notes are being corrected to match the curated public tree. This audit does not alter or replace any experimental result.
 
 ## Remaining limitations
 
-DRL transfer to unseen 100-square layouts remained weak at the tested CPU budgets. The gamma study varies training seeds on fixed layouts and does not establish performance over a distribution of boards. The random baseline is unusually effective on the one saved 100-square board. Optional random-dice, one-time snake-avoidance, and multiplayer challenges were not implemented. The assignment file is not redistributed; a license is not assigned in this release.
+DRL transfer to unseen 100-square layouts remained weak at the tested CPU budgets. The gamma study varies training seeds on fixed layouts and does not establish performance over a distribution of boards. The random baseline is unusually effective on the one saved 100-square board. Optional random-dice, one-time snake-avoidance, and multiplayer challenges were not implemented. The assignment file is not redistributed; a license is not assigned in this release. GitHub publication remains incomplete as described above.
 
