@@ -1,0 +1,30 @@
+{
+  "boards": "three saved original configurations",
+  "gammas": [
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "seeds": [
+    301,
+    307,
+    311,
+    313,
+    317,
+    331,
+    337,
+    347,
+    349,
+    353
+  ],
+  "episodes": 5000,
+  "alpha": 0.1,
+  "epsilon_start": 1.0,
+  "epsilon_min": 0.02,
+  "epsilon_decay": 0.9998,
+  "reward": "original",
+  "evaluation_episodes": 100,
+  "checkpoint_eval_episodes": 25,
+  "board_3_source": "separate results/improved/gamma_sweep 10-seed run"
+}
